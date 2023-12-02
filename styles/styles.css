@@ -1,0 +1,228 @@
+.topnav {
+	overflow: hidden;
+	padding: 2px;
+	
+}
+.search{
+	padding: 6px;
+	font-size: 18px;
+}
+.searchb{
+	margin-top: 8px;
+	padding: 4px;
+	font-family: Arial;
+	font-weight: bold;
+}
+.loginb, .updateBtn, .deleteBtn{
+	margin-top: 12px;
+	padding: 9px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+	background-color: #000066;
+}
+.loginb:hover, .updateBtn:hover, .deleteBtn:hover, .categoryb:hover{
+	background-color: #6699ff;
+}
+
+.loginb:active, .buyb:active , .categoryb:active{
+	transform: scale(1.1);
+}
+
+.headerul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #000066;
+}
+.headerli{
+	float: left;
+}
+.headerli a{
+	display: block;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 17px;
+	color: white;
+	text-align: center;
+	padding: 13px 35px;
+	text-decoration: none;
+}
+
+.headerli a:hover, .active, .buyb:hover{
+	background-color: #6699ff;
+}
+.footernav{
+	overflow: hidden;
+	background-color: #3d3d5c;
+	padding: 15px;
+}
+.footerul{
+	list-style-type: none;
+	margin-left: 50;
+	padding: 0;
+	overflow: hidden;
+}
+
+.footerli a{
+	display: block;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+	text-align: left;
+	padding: 5px 1px;
+	text-decoration: none;
+}
+
+.buyb{
+	margin-top: 12px;
+	padding: 9px 35px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 19px;
+	color: white;
+	background-color: #000066;
+}
+
+a:link {
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+.editable {
+    border: 1px solid #ccc;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#submitBtn{
+	padding: 9px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 15px;	
+}
+
+.hometd:hover {
+	background-color: #cccccc;
+}
+
+#name, #mail, #msg{
+	width: 100%;
+	padding: 12px;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 0 12px 4px #000066;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+.emailsb {
+	background-color: #000066;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+}
+
+.emailsb:hover {
+	background-color: #6699ff;
+	scale: 1.2;
+  
+}
+
+.loginf{
+    border: 0;
+    padding: 20px;
+    margin-top: 5%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 5%;
+    background-color: #ffffff;
+    box-shadow: 0 0 25px 8px #000066;
+    font-family: Arial;
+	font-weight: bold;
+    font-size: 20px;  
+}
+
+.loguser, .logpass{
+    font-size: 15px;
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0;
+    border: 0;
+    box-shadow: 0 0 5px 3px #000066;
+    border-radius: 10px;
+    font-family: Arial;
+}
+
+/* Buttons */
+.logbu{
+    background-color: #000066;
+    color: #ffffff;
+    padding: 14px;
+    margin: 8px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 10px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/* Button effect when hover on it */
+.logbu:hover{
+    background-color: #6699ff;	
+}
+
+/* Buttons effect when click it */
+.logbu:active{
+    transform:scale(1.09);
+}
+
+.helpimg{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.table-container {
+  margin-top: 10px;
+  margin-bottom: 10px; /* Add the margin-bottom property */
+  height: 550px;
+  overflow-y: scroll;
+  border: 1px solid black;
+  
+}
+
+.categories {
+  list-style: none;
+  padding: 0;
+}
+
+.categoryb{
+	margin-top: 12px;
+	padding: 30px 35px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 19px;
+	color: white;
+	background-color: #000066;
+	width: 500px;	
+}
+
+.categoryb.active{
+	background-color: #6699ff;
+}
